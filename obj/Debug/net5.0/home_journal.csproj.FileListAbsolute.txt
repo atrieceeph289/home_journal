@@ -38,3 +38,5 @@ C:\Users\alext\source\home_journal\obj\Debug\net5.0\ref\home_journal.dll
 C:\Users\alext\source\home_journal\obj\Debug\net5.0\home_journal.pdb
 C:\Users\alext\source\home_journal\obj\Debug\net5.0\home_journal.genruntimeconfig.cache
 C:\Users\alext\source\home_journal\obj\Debug\net5.0\home_journal.csproj.CopyComplete
+C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\HelloWorld\index.cshtml.g.cs
+C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\HelloWorld\Welcome.cshtml.g.cs
