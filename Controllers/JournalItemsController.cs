@@ -20,9 +20,17 @@ namespace home_journal.Controllers
         }
 
         // GET: JournalItems
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string id)
         {
-            return View(await _context.JournalItem.ToListAsync());
+            var journalItems = from j in _context.JournalItem
+                         select j;
+
+            if (!String.IsNullOrEmpty(id))
+            {
+                journalItems = journalItems.Where(s => s.Title.Contains(id));
+            }
+
+            return View(await journalItems.ToListAsync());
         }
 
         // GET: JournalItems/Details/5

@@ -151,3 +151,4 @@ C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\JournalItems\Del
 C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\JournalItems\Details.cshtml.g.cs
 C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\JournalItems\Edit.cshtml.g.cs
 C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\JournalItems\Index.cshtml.g.cs
+C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\Home\_mypartial.cshtml.g.cs
