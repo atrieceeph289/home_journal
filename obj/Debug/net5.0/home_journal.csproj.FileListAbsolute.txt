@@ -152,3 +152,4 @@ C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\JournalItems\Det
 C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\JournalItems\Edit.cshtml.g.cs
 C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\JournalItems\Index.cshtml.g.cs
 C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\Home\_mypartial.cshtml.g.cs
+C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\JournalItems\_journalPartial.cshtml.g.cs

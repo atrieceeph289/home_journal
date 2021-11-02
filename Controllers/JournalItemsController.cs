@@ -20,14 +20,14 @@ namespace home_journal.Controllers
         }
 
         // GET: JournalItems
-        public async Task<IActionResult> Index(string id)
+        public async Task<IActionResult> Index(string searchString)
         {
             var journalItems = from j in _context.JournalItem
                          select j;
 
-            if (!String.IsNullOrEmpty(id))
+            if (!String.IsNullOrEmpty(searchString))
             {
-                journalItems = journalItems.Where(s => s.Title.Contains(id));
+                journalItems = journalItems.Where(s => s.Title.Contains(searchString));
             }
 
             return View(await journalItems.ToListAsync());
