@@ -5,7 +5,7 @@
 }
 
 <h1>Index</h1>
-
+<partial name="~/Views/JournalItems/_journalPartial.cshtml" />
 <p>
     <a asp-action="Create">Create New</a>
 </p>
@@ -19,6 +19,7 @@
         <input type="submit" value="Filter" />
     </p>
 </form>
+
 <table class="table">
     <thead>
         <tr>
@@ -63,4 +64,4 @@
     </tbody>
 </table>
 
-<partial name="~/Views/JournalItems/_journalPartial.cshtml" />
+

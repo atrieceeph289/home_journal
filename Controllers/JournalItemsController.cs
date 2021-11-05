@@ -37,7 +37,7 @@ namespace home_journal.Controllers
 
             if (!string.IsNullOrEmpty(journalDescription))
             {
-                journalItems = journalItems.Where(x => x.Description == journalDescription);
+                journalItems = journalItems.Where(x => x.Description.Contains(journalDescription));
             }
 
             var journalDescriptionVM = new JournalDescriptionViewModel
