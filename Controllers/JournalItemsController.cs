@@ -20,7 +20,7 @@ namespace home_journal.Controllers
         }
 
         // GET: JournalItems
-        public async Task<IActionResult> Index(string journalDescription, string searchString)
+        public async Task<IActionResult> Index(string itemDescription, string searchString)
         {
             // Use LINQ to get list of genres.
             IQueryable<string> descriptionQuery = from j in _context.JournalItem
@@ -35,9 +35,9 @@ namespace home_journal.Controllers
                 journalItems = journalItems.Where(s => s.Title.Contains(searchString));
             }
 
-            if (!string.IsNullOrEmpty(journalDescription))
+            if (!string.IsNullOrEmpty(itemDescription))
             {
-                journalItems = journalItems.Where(x => x.Description.Contains(journalDescription));
+                journalItems = journalItems.Where(x => x.Description == itemDescription);
             }
 
             var journalDescriptionVM = new JournalDescriptionViewModel
