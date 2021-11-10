@@ -26,7 +26,8 @@ namespace home_journal.Models
                         Title = "Fix Shower Tile",
                         PlanDate = DateTime.Parse("2021-11-6"),
                         Description = "Repair",
-                        Price = 250.00M
+                        Price = 250.00M,
+                        Priority = "High, ASAP"
                     },
 
                     new JournalItem
@@ -34,7 +35,8 @@ namespace home_journal.Models
                         Title = "Fix floor in boys room",
                         PlanDate = DateTime.Parse("2022-1-20"),
                         Description = "Upgrade",
-                        Price = 300.00M
+                        Price = 300.00M,
+                        Priority = "High, long-term"
                     },
 
                     new JournalItem
@@ -42,7 +44,8 @@ namespace home_journal.Models
                         Title = "Clear out basement",
                         PlanDate = DateTime.Parse("2021-11-12"),
                         Description = "Cleaning/Organizing",
-                        Price = 0.00M
+                        Price = 0.00M,
+                        Priority = "High, ASAP"
                     },
 
                     new JournalItem
@@ -50,7 +53,9 @@ namespace home_journal.Models
                         Title = "Finish Floor in Dining Room",
                         PlanDate = DateTime.Parse("2021-11-23"),
                         Description = "Upgrade",
-                        Price = 0.00M
+                        Price = 0.00M,
+                        Priority = "Medium, long-term"
+
                     }
                 );
                 context.SaveChanges();
