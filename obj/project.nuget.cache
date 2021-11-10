@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5Al6y4lMLaC1HGYvAaMRVmai3UDXJYn5Ap/SCWgfZ2B/KFP9ZKXH2UpqtGGRLwsBU9tk1Dx4FgC66WitTk6fdg==",
+  "dgSpecHash": "PEgIOsSps/BF3tLIvpjThc+vqTf6yYTTDCSYdeN1qq8kdF8advlXNAjUV88bmiCUI2zM3D3i9BSJJHyvNGeDqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\alext\\source\\home_journal\\home_journal.csproj",
   "expectedPackageFiles": [
@@ -54,6 +54,7 @@
     "C:\\Users\\alext\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\alext\\.nuget\\packages\\quartz\\3.3.3\\quartz.3.3.3.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",
