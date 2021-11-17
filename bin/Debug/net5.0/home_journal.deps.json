@@ -37,6 +37,7 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.11",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
+          "Quartz": "3.3.3",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -1083,6 +1084,22 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "Quartz/3.3.3": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "System.Configuration.ConfigurationManager": "4.7.0",
+          "System.Diagnostics.DiagnosticSource": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Quartz.dll": {
+            "assemblyVersion": "3.3.3.0",
+            "fileVersion": "3.3.3.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Quartz.dll": {}
+        }
+      },
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1297,6 +1314,9 @@
             "assemblyVersion": "4.0.3.0",
             "fileVersion": "4.700.19.56404"
           }
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         }
       },
       "System.Diagnostics.Debug/4.3.0": {
@@ -3844,6 +3864,13 @@
       "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "Quartz/3.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-waM2gyFQ/JOuvyHmlEnN2jpAiqJAEMEaPq6K6rT/mmLKlW0qvxCIYARDRfWaenJ6qQBHH2/J6cx+bCPVZb8z1Q==",
+      "path": "quartz/3.3.3",
+      "hashPath": "quartz.3.3.3.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",
