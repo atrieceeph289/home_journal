@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PEgIOsSps/BF3tLIvpjThc+vqTf6yYTTDCSYdeN1qq8kdF8advlXNAjUV88bmiCUI2zM3D3i9BSJJHyvNGeDqg==",
+  "dgSpecHash": "gVdweyAIDLRw+eRWnQ6tvM4Q0X74QxyVazGl4G4PF1AHf5yd2pJ4+76fpWeLxAiGk6Lq2PZ9sTqfNC+rvXk44g==",
   "success": true,
   "projectFilePath": "C:\\Users\\alext\\source\\home_journal\\home_journal.csproj",
   "expectedPackageFiles": [
@@ -31,6 +31,10 @@
     "C:\\Users\\alext\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.2\\microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\alext\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks\\2.2.0\\microsoft.extensions.diagnostics.healthchecks.2.2.0.nupkg.sha512",
+    "C:\\Users\\alext\\.nuget\\packages\\microsoft.extensions.diagnostics.healthchecks.abstractions\\2.2.0\\microsoft.extensions.diagnostics.healthchecks.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\alext\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.2.0\\microsoft.extensions.fileproviders.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\alext\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.2.0\\microsoft.extensions.hosting.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
@@ -55,6 +59,9 @@
     "C:\\Users\\alext\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\quartz\\3.3.3\\quartz.3.3.3.nupkg.sha512",
+    "C:\\Users\\alext\\.nuget\\packages\\quartz.aspnetcore\\3.3.3\\quartz.aspnetcore.3.3.3.nupkg.sha512",
+    "C:\\Users\\alext\\.nuget\\packages\\quartz.extensions.dependencyinjection\\3.3.3\\quartz.extensions.dependencyinjection.3.3.3.nupkg.sha512",
+    "C:\\Users\\alext\\.nuget\\packages\\quartz.extensions.hosting\\3.3.3\\quartz.extensions.hosting.3.3.3.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\alext\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",

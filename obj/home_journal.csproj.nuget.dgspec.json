@@ -63,6 +63,10 @@
             "Quartz": {
               "target": "Package",
               "version": "[3.3.3, )"
+            },
+            "Quartz.AspNetCore": {
+              "target": "Package",
+              "version": "[3.3.3, )"
             }
           },
           "imports": [
