@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Quartz;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using home_journal.Data;
@@ -29,6 +30,18 @@ namespace home_journal
 
             services.AddDbContext<home_journalContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("home_journalContext")));
+
+            services.AddQuartz(q =>
+            {
+                // base quartz scheduler, job and trigger configuration
+            });
+
+            // ASP.NET Core hosting
+            services.AddQuartzServer(options =>
+            {
+                // when shutting down we want jobs to complete gracefully
+                options.WaitForJobsToComplete = true;
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,5 +71,6 @@ namespace home_journal
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
         }
+
     }
 }

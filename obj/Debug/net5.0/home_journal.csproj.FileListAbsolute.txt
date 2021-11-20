@@ -154,3 +154,6 @@ C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\JournalItems\Ind
 C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\Home\_mypartial.cshtml.g.cs
 C:\Users\alext\source\home_journal\obj\Debug\net5.0\Razor\Views\JournalItems\_journalPartial.cshtml.g.cs
 C:\Users\alext\source\home_journal\bin\Debug\net5.0\Quartz.dll
+C:\Users\alext\source\home_journal\bin\Debug\net5.0\Quartz.AspNetCore.dll
+C:\Users\alext\source\home_journal\bin\Debug\net5.0\Quartz.Extensions.DependencyInjection.dll
+C:\Users\alext\source\home_journal\bin\Debug\net5.0\Quartz.Extensions.Hosting.dll
